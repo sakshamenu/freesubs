@@ -1,0 +1,269 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+
+#div{
+color:white;
+}
+
+#red{
+color:gold;
+text-decoration:underlined;
+margin-left:200px;
+background-color:green;
+}
+
+
+
+
+
+body{
+   background-image:url(studying.jpg);
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.menu-bar{
+            background:green;
+            text-align: center;
+}
+
+
+
+.menu-bar ul
+{
+     display: inline-flex;
+     list-style:none;
+     color:fff;
+}
+
+.menu-bar ul li
+{
+          width:120;
+          margin:15;
+          padding:15;
+}
+
+
+.menu-bar ul li a
+{
+      text-decoration:none;
+      color:fff;
+}
+
+.active, .menu-bar ul li:hover
+{
+      background: #2bab0d;
+      border-radius: 3px;
+}
+
+.Submenu1{
+
+          display:none;
+
+}
+
+
+.menu-bar ul li:hover .Submenu1
+{
+          display:block;
+          position:absolute;
+          background:rgb(0,100,0);
+          margin-top: 16px;
+          margin-left: -16px;
+}
+
+
+
+.menu-bar ul li:hover .Submenu1 ul
+{
+             display:block;
+             margin:10px;
+}
+
+.menu-bar ul li:hover .Submenu1 ul li
+{
+            width: 150px;
+            padding: 10px;
+            border-bottom: 1px dotted #fff;
+            background: trasparent;
+            border-radius: 0;
+            text-align: left;
+}
+
+.menu-bar ul li:hover .Submenu1 ul li:last-child
+{
+border-bottom:none;
+}
+
+.menu-bar ul li:hover .Submenu1 ul li a:hover
+{
+color:b2ff00;
+}
+
+
+
+
+
+
+
+
+
+.maindiv{
+width: 70%
+height: 400px;
+position: absolute;
+left: 50%;
+top:50%;
+background-image: url(E:\Educational Website\Studying);
+background-size: 100% 100%;
+}
+
+
+
+
+
+
+#saphal{
+margin-left:700px;
+margin-top:-200px;
+
+padding-left:50px;
+border-radius:20%;
+}
+
+
+
+
+
+#saksham{
+margin-left:350px;
+margin-top: -35%;
+color:white;
+text-decoration:underline dotted;
+font-style:strong;
+border-radius:20px;
+
+}
+
+
+
+#sap{
+color:white;
+text-decoration:underline dotted;
+margin-left:760px;
+}
+
+#ph{
+margin-top:-0.1%;
+margin-left:755px;
+color:white;
+}
+
+#phs{
+margin-top:-2%;
+margin-left:355px;
+color:white;
+}
+
+
+#saks{
+width:500px;
+height:200px;
+background-image: linear-gradient(to right,gray , green); 
+border-radius:20px;
+margin-left:370px;
+}
+
+#g{
+color:blue;
+}
+
+#list{
+margin-top: -40%;
+}
+
+
+
+
+#logi{
+margin-left:1100px;
+margin-top: -150px;
+}
+
+
+
+
+#x{
+background-color:gold;
+width:300;
+margin-left:450;
+border:underlined transparent;
+}
+
+
+
+
+
+
+
+#services{
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+var radius = canvas.height / 2;
+ctx.translate(radius, radius);
+radius = radius * 0.90
+//drawClock();
+setInterval(drawClock, 1000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Greeting{
+color: violet;
+font-size: 30px;
+margin-left:400px;
+background-color:purple;
+width:400px;
+border-radius:5px;
+padding-left:1px;
+
+}
+
+
+
+
+#div{
+color:white;
+}

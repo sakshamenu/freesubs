@@ -1,0 +1,15 @@
+body{
+color:black;
+background-image: linear-gradient(to right,grey,yellow,green);
+}
+
+
+#X{
+margin-top:-300;
+margin-left:700px;
+}
+
+#y{
+margin-top:-300;
+margin-left:350px;
+}

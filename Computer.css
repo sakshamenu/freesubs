@@ -1,0 +1,14 @@
+body{
+color:black;
+background-image: linear-gradient(to right,grey,indigo,blue);
+}
+
+#H{
+margin-left:350;
+margin-top:-300;
+}
+
+#D{
+margin-left:750;
+margin-top:-305;
+}

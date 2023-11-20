@@ -1,0 +1,22 @@
+body{  
+color:gold;
+    }
+h1{
+color:gold;
+text-align:center;
+}
+marquee{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 1000px;
+}
+
+#subs{
+margin-left:125;
+margin-top:-25;
+border:solid;
+color:red;
+border-radius:20px;
+}
+
